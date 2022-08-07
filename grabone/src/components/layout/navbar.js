@@ -61,6 +61,47 @@ const Navbar = ()=>{
           </div>
       </div>
 </nav>
+<div className="minNavbar">
+      <div className="d-flex d-flex justify-content-around">
+
+        <div className="browseCategories my-3">
+          <a className="" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <span className="">Browse Categories</span>
+               
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a className="dropdown-item" href="#">Category 1 </a></li>
+                  <li><a className="dropdown-item" href="#">Category 2</a></li>
+                  <li><a className="dropdown-item" href="#">Category 3 </a></li>
+                  <li><a className="dropdown-item" href="#">Category 4 </a></li>
+                  <li><a className="dropdown-item" href="#">Category 5 </a></li>
+                </ul>
+             <a ><i className='fas fa-angle-down'></i></a>
+          </div>
+
+          <div className="whatNew my-auto">
+             <span>what's New</span>
+          </div>
+
+          <div className="tranding my-auto">
+            <span>Tranding</span>
+          </div>
+
+          <div className="forYou my-auto">
+            <span>For You</span>
+          </div>
+
+          <div className="shopProducts my-auto">
+            <span>Shop Products</span>
+          </div>
+
+        <div className="input-icons d-flex flex-row my-auto">
+            <i className="bi bi-search px-2"></i>
+            <input className="input-field px-5" type="text" placeholder="Search GrabOne" />
+       </div>
+      </div>
+      
+</div>
 <div className="responsiveNabr">
       <div className="iconResponsive">
         <i class="bi bi-house"></i>

@@ -48,9 +48,53 @@ a i {
 }
 .responsiveNabr{
     opacity: 0;
+    display: none;
 }
 
-@media screen and (max-width: 768px){
+.input-icons i {
+    position: absolute;
+    
+}
+  
+.input-icons {
+    width: 30%;
+    /* margin-bottom: 10px; */
+    
+}
+.input-icons i {
+    width: 30%;
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+}
+  
+.icon {
+    
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 70%;
+    /* padding: 10px; */
+    height: 35px;
+    text-align: left;
+    border: solid rgba(128, 128, 128, 0.518) 1px;
+}
+
+.browseCategories a {
+    color: rgb(57, 54, 54);
+    
+}
+.browseCategories a i{
+    color: rgb(57, 54, 54);
+    font-size: 20px;
+}
+.minNavbar{
+margin: 0;
+padding: 0;
+height: 60px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media screen and (max-width: 1023px){
     nav{
         
         position: relative;
@@ -84,6 +128,13 @@ a i {
     }
     .responsiveNabr div i {
         color: gray;
+    }
+    .minNavbar{
+        display: none;
+    }
+
+    .sales{
+        display: none;
     }
     
 

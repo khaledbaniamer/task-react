@@ -10,6 +10,7 @@ import Footer from "./components/layout/footer";
 import Navbar from "./components/layout/navbar";
 import Sidebar from "./components/layout/sidebar";
 import Restaurants from "./components/restaurants";
+import Sales from "./components/salse";
 import Store from "./components/store";
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Sales />
       <Sidebar/>
       <Featured/>
       <Collection />

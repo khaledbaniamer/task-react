@@ -39,7 +39,7 @@ input{
     color: #01b2ee;
 }
 .letterResponsive{
-    opacity: 0;
+    display: none;
 }
 
 @media screen and (max-width: 768px){

@@ -42,7 +42,7 @@ input[type=submit]{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 62%;
+    height: 66%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
