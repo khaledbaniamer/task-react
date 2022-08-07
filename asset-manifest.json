@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/grabone_task/static/css/main.6cf5af32.css",
-    "main.js": "/grabone_task/static/js/main.011a918a.js",
-    "index.html": "/grabone_task/index.html",
-    "main.6cf5af32.css.map": "/grabone_task/static/css/main.6cf5af32.css.map",
-    "main.011a918a.js.map": "/grabone_task/static/js/main.011a918a.js.map"
+    "main.css": "/react-task/grabone/static/css/main.6cf5af32.css",
+    "main.js": "/react-task/grabone/static/js/main.011a918a.js",
+    "index.html": "/react-task/grabone/index.html",
+    "main.6cf5af32.css.map": "/react-task/grabone/static/css/main.6cf5af32.css.map",
+    "main.011a918a.js.map": "/react-task/grabone/static/js/main.011a918a.js.map"
   },
   "entrypoints": [
     "static/css/main.6cf5af32.css",
