@@ -1,0 +1,54 @@
+input[type=submit]{
+    background-color: #01b2ee;
+    color: white;
+}
+.sendEmail input[type=text]{
+    margin-left: 15px;
+    
+    
+}
+.sendEmail{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sendEmail span{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.card{
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0;
+
+}
+
+.texthover {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* text-align: left; */
+    
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 62%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #01b2ee;
+  }
+  .overlay:hover{
+    opacity: 1;
+  }
+  

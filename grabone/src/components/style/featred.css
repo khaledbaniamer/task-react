@@ -1,0 +1,58 @@
+.texthoverfeatured {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* text-align: left; */
+    
+  }
+
+  .overlayfeatured {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 56%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #01b2ee;
+  }
+  .overlayfeatured:hover{
+    opacity: 1;
+  }
+  .headersection a{
+    margin-left:40px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: #01b2ee;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+  .viewCollection{
+    border-radius: 5px;
+    border: #01b2ee solid ;
+    padding: 5px;
+    color: #01b2ee;
+    text-decoration: none;
+  }
+  .viewCollection:hover{
+    color: #01b2ee;
+  }
+  .viewCollection i {
+    color: #01b2ee;
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 768px){
+      #sidebar{
+        display: none;
+      }
+  }

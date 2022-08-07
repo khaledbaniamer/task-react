@@ -1,0 +1,90 @@
+
+
+nav {
+    background-color:#01b2ee;
+    display: grid;
+    grid-template-columns: repeat(20fr);
+    grid-template-rows: repeat(1fr);
+    padding: .75%;
+    
+ 
+}
+a{
+    text-decoration: none;
+}
+.rest{
+    grid-area: 1/16/2/19;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a i {
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+    
+}
+.locationDrop{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family:MuseoSans,sans-serif ;
+}
+
+.logo {
+    grid-area:1/3/2/9;
+    font-size: 35px;
+    font-family:MuseoSans,sans-serif ;
+    font-weight:600;
+    
+    color: white;
+}
+.subscribe span{
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    font-family:MuseoSans,sans-serif ;
+}
+.responsiveNabr{
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        
+        position: relative;
+        display:flex;
+        justify-content: space-between;
+        
+    }
+
+    .con
+    .favourite , .cart , .subscribe ,.account , .favourite {
+        display: none;
+    }
+    .responsiveNabr{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        z-index: 10;
+        opacity: 1;
+        background-color: white;
+        
+    }
+    .iconResponsive p{
+        font-size: 10px;
+    }
+    .iconResponsive i{
+        text-align: center;
+    }
+    .responsiveNabr div i {
+        color: gray;
+    }
+    
+
+}

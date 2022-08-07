@@ -1,0 +1,85 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+  
+    
+}
+div h6 {
+    margin-bottom: 25px;
+}
+.socialIcon i{
+    margin-left:10px;
+    
+}
+i{
+    font-size: 25px;
+}
+.exclusive {
+    margin-top: 25px;
+}
+.exclusivebtn ,.subscribebtn
+{
+    background-color: #01b2ee;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+input{
+    padding: 6px;
+    border: rgb(109, 107, 107) 1px solid;
+    border-radius: 5px;
+}
+.copyright h6 {
+    text-align: center;
+}
+.copyright h6 span{
+    color: #01b2ee;
+}
+.letterResponsive{
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px){
+    footer{
+        display: flex;
+        justify-content: space-around;
+        margin: 4%;
+       
+    }
+    i{
+        font-size: 10px;
+    }
+    .exclusive {
+        margin-top: 15px;
+    }
+
+    .exclusivebtn ,.subscribebtn
+        {
+            background-color: #01b2ee;
+            border-radius: 5px;
+            padding: 2px;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 10px;
+            text-align: center;
+        }
+    .letter{
+        display: none;
+    }
+
+    .letterResponsive{
+        opacity: 1;
+        padding: 20px;
+        display: block;
+    }
+    .letterResponsive a {
+        padding: 1%;
+        font-size: 17px;
+    }
+    
+
+}
